@@ -146,7 +146,7 @@ declare module 'astro:content' {
   slug: "taking-a-trip";
   body: string;
   collection: "music";
-  data: InferEntrySchema<"music">
+  data: any
 } & { render(): Render[".md"] };
 };
 "work": {
@@ -155,28 +155,28 @@ declare module 'astro:content' {
   slug: "h20";
   body: string;
   collection: "work";
-  data: InferEntrySchema<"work">
+  data: any
 } & { render(): Render[".md"] };
 "markdown-mystery-tour.md": {
 	id: "markdown-mystery-tour.md";
   slug: "markdown-mystery-tour";
   body: string;
   collection: "work";
-  data: InferEntrySchema<"work">
+  data: any
 } & { render(): Render[".md"] };
 "nested/duvet-genius.md": {
 	id: "nested/duvet-genius.md";
   slug: "nested/duvet-genius";
   body: string;
   collection: "work";
-  data: InferEntrySchema<"work">
+  data: any
 } & { render(): Render[".md"] };
 "wire-clippers.md": {
 	id: "wire-clippers.md";
   slug: "wire-clippers";
   body: string;
   collection: "work";
-  data: InferEntrySchema<"work">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -188,5 +188,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
