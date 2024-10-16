@@ -1,3 +1,5 @@
+import { defineCollection } from 'astro/content/runtime';
+
 declare module 'astro:content' {
 	interface RenderResult {
 		Content: import('astro/runtime/server/index.js').AstroComponentFactory;
@@ -169,9 +171,20 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-};
 
-	};
+		};
+
+	"music": {
+		"taking-a-trip.md": {
+		id: "taking-a-trip.md";
+ 	 	slug: "taking-a-trip";
+  		body: string;
+  		collection: "music";
+  		data: InferEntrySchema<"music">
+	} & { render(): Render[".md"] };
+	
+	}; 
+};
 
 	type DataEntryMap = {
 		
