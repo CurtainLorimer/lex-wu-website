@@ -1,6 +1,6 @@
 ---
 title: Taking a Trip
-publishDate: 2024-08-18 00:00:00
+publishDate: 2023-08-18 00:00:00
 img: /assets/music/flowing.jpg
 img_alt: A picture of a Japanese maple tree set against the sky.
 description: |

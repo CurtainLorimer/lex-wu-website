@@ -141,12 +141,47 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"music": {
-"taking-a-trip.md": {
-	id: "taking-a-trip.md";
-  slug: "taking-a-trip";
+"flowing-with-the-wind/home.md": {
+	id: "flowing-with-the-wind/home.md";
+  slug: "flowing-with-the-wind/home";
   body: string;
   collection: "music";
-  data: any
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"flowing-with-the-wind/lights-out.md": {
+	id: "flowing-with-the-wind/lights-out.md";
+  slug: "flowing-with-the-wind/lights-out";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"flowing-with-the-wind/taking-a-trip.md": {
+	id: "flowing-with-the-wind/taking-a-trip.md";
+  slug: "flowing-with-the-wind/taking-a-trip";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"flowing-with-the-wind/walking-in-the-snow.md": {
+	id: "flowing-with-the-wind/walking-in-the-snow.md";
+  slug: "flowing-with-the-wind/walking-in-the-snow";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"into-the-rain.md": {
+	id: "into-the-rain.md";
+  slug: "into-the-rain";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"tales-of-a-shoebox/index.md": {
+	id: "tales-of-a-shoebox/index.md";
+  slug: "tales-of-a-shoebox";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
 } & { render(): Render[".md"] };
 };
 "work": {
@@ -155,28 +190,28 @@ declare module 'astro:content' {
   slug: "h20";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "markdown-mystery-tour.md": {
 	id: "markdown-mystery-tour.md";
   slug: "markdown-mystery-tour";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "nested/duvet-genius.md": {
 	id: "nested/duvet-genius.md";
   slug: "nested/duvet-genius";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "wire-clippers.md": {
 	id: "wire-clippers.md";
   slug: "wire-clippers";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 };
 
@@ -188,5 +223,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

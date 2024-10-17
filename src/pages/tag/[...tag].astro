@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Grid from '../../components/Grid.astro';
+import MusicPreview from '../../components/MusicPreview.astro';
+
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return [
+    { params: { tag: "flowing-with-the-wind" } },
+    { params: { tag: "instrumental" } },
+    { params: { tag: "community" } },
+    { params: { tag: "blogging" } },
+    { params: { tag: "setbacks" } },
+    { params: { tag: "learning in public" } },
+  ];
+}
+
+const { tag } = Astro.params;
+const { projects } = Astro.props;
+
+const filteredProjects = projects.filter((project) => project.data.tags?.includes(tag));
+
+---
+<BaseLayout
+	title="Music | Lex Wu"
+	description="Learn about Lex's music"
+>
+
+<ul>
+    {filteredProjects.map((project) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+  </ul>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="My Music"
+				tagline="A quick little thing with my discography."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					filteredProjects.map((filteredProjects) => (
+						<li>
+							<MusicPreview project={filteredProjects} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+	</div>
+</BaseLayout>

@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-
+import Pill from './Pill.astro';
 interface Props {
 	project: CollectionEntry<'music'>;
 }
@@ -9,8 +9,11 @@ const { data, slug } = Astro.props.project;
 ---
 
 <a class="card" href={`/music/${slug}`}>
-	<span class="title">{data.title}</span>
+	<span class="title">{data.title}
+	</span>
+	
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+
 </a>
 
 <style>
@@ -60,5 +63,10 @@ const { data, slug } = Astro.props.project;
 		.title {
 			border-radius: 0.9375rem;
 		}
+	}
+
+	.tags {
+		display: flex;
+		gap: 0.5rem;
 	}
 </style>
