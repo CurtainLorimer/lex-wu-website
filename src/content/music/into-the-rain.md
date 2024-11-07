@@ -51,4 +51,9 @@ It's a very fun rhythm game, and that's why I made it for Rhythm Doctor. You can
 		line-height: 1.35;
 		white-space: nowrap;
 	}
+
+		.tags {
+		display: flex;
+		gap: 0.5rem;
+	}
 </style>
