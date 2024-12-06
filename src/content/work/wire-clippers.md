@@ -1,14 +1,12 @@
 ---
 title: The Wire Clippers | FRC 5902
 publishDate: 2023-12-01 00:00:00
-img: ""
+img: "https://i0.wp.com/wireclippers.org/wp-content/uploads/2024/03/IMG_1722_edited.jpg?w=1600&ssl=1"
 img_alt: ""
 description: |
-  I worked as a business 'manager' responsible for public relations, social media, and other endeavors (like a website built using Astro.)
+  I'm the business captain; I'm responsible for public relations, social media, and other endeavors (like a website built using Astro.)
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - WebDev
 ---
 
 You probably wouldn't expect a robotics team to have a place for a front-end developer, but I definitely found one.

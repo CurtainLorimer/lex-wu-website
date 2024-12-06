@@ -140,51 +140,29 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"music": {
-"flowing-with-the-wind/home.md": {
-	id: "flowing-with-the-wind/home.md";
-  slug: "flowing-with-the-wind/home";
+		"music": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-"flowing-with-the-wind/lights-out.md": {
-	id: "flowing-with-the-wind/lights-out.md";
-  slug: "flowing-with-the-wind/lights-out";
-  body: string;
-  collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-"flowing-with-the-wind/taking-a-trip.md": {
-	id: "flowing-with-the-wind/taking-a-trip.md";
-  slug: "flowing-with-the-wind/taking-a-trip";
-  body: string;
-  collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-"flowing-with-the-wind/walking-in-the-snow.md": {
-	id: "flowing-with-the-wind/walking-in-the-snow.md";
-  slug: "flowing-with-the-wind/walking-in-the-snow";
-  body: string;
-  collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-"into-the-rain.md": {
-	id: "into-the-rain.md";
-  slug: "into-the-rain";
-  body: string;
-  collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-"tales-of-a-shoebox/index.md": {
-	id: "tales-of-a-shoebox/index.md";
-  slug: "tales-of-a-shoebox";
-  body: string;
-  collection: "music";
-  data: InferEntrySchema<"music">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"music">;
+  render(): Render[".md"];
+}>;
 "work": {
+"curtain-lorimer/heres-a-minute.md": {
+	id: "curtain-lorimer/heres-a-minute.md";
+  slug: "curtain-lorimer/heres-a-minute";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"flowing-in-the-wind.md": {
+	id: "flowing-in-the-wind.md";
+  slug: "flowing-in-the-wind";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "h20.md": {
 	id: "h20.md";
   slug: "h20";

@@ -16,6 +16,6 @@ export default defineConfig({
     tailwind(),
     sitemap(),
     sentry(),
-    spotlightjs()
+    spotlightjs(),
   ]
 });

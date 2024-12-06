@@ -5,6 +5,7 @@ interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
 }
+import { slide } from 'astro:transitions';
 
 const {
 	title = 'Lex Wu',
@@ -45,5 +46,7 @@ const {
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
 </script>
+
+<slide />
 
 <link rel="sitemap" href="/sitemap-index.xml" />
