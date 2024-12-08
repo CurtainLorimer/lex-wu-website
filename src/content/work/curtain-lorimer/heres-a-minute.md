@@ -16,12 +16,16 @@ I thought it'd be fun to try a podcast again - so I decided to start one with a 
 
 ## Hosting + Writing
 
-Obviously, any podcast wouldn't be a podcast without a host (or two) to walk people through an audio presentation. That would be me! Jayden and I come up with the prompts, and hopefully you'll listen. 
+Obviously, any podcast wouldn't be a podcast without a host (or two) to walk people through an audio presentation. That would be me! Jayden and I come up with the prompts, and hopefully you'll listen too!
 
 ## Web Development
 
-As a freelance web developer, I used [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com) to get these websites up and running for the holiday season (also known as: getting websites done within three days of starting.)
+As a freelance web developer, I used [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com) to get these websites up and running for the holiday season (also known as: getting websites done within three days of notice.)
 
 ## Music
 
 Since the last time I had to compose music for a podcast, I've bettered myself as a musician. Take a look at the album of music I've composed specifically as backdrop music for this podcast - it's a lot!
+
+## Branding
+
+Simple and elegant. That's what I usually go with.

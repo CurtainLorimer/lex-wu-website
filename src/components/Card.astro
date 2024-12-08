@@ -1,3 +1,15 @@
+---
+const { title } = Astro.props;
+const { img } = Astro.props;
+const { img_alt } = Astro.props;
+const { link } = Astro.props;
+---
+
+<a class="card" href={ link } >
+	<span class="title">{title}</span>
+	<img src={img} alt={img_alt} loading="lazy" decoding="async" />
+</a>
+
 <style>
 	.card {
 		display: grid;

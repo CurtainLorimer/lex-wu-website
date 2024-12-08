@@ -9,6 +9,9 @@ import sentry from '@sentry/astro';
 import spotlightjs from '@spotlightjs/astro';
 
 
+import mdx from '@astrojs/mdx';
+
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://beta.lexwu.com',
@@ -17,5 +20,6 @@ export default defineConfig({
     sitemap(),
     sentry(),
     spotlightjs(),
+    mdx()
   ]
 });
