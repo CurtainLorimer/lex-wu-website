@@ -140,10 +140,25 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"work": {
-"bloom-box.md": {
-	id: "bloom-box.md";
-  slug: "bloom-box";
+		"music": Record<string, {
+  id: string;
+  slug: string;
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">;
+  render(): Render[".md"];
+}>;
+"work": {
+"curtain-lorimer/heres-a-minute.md": {
+	id: "curtain-lorimer/heres-a-minute.md";
+  slug: "curtain-lorimer/heres-a-minute";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"flowing-in-the-wind.md": {
+	id: "flowing-in-the-wind.md";
+  slug: "flowing-in-the-wind";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
@@ -165,6 +180,13 @@ declare module 'astro:content' {
 "nested/duvet-genius.md": {
 	id: "nested/duvet-genius.md";
   slug: "nested/duvet-genius";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
+"wire-clippers.md": {
+	id: "wire-clippers.md";
+  slug: "wire-clippers";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">

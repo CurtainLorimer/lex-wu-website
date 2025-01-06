@@ -10,11 +10,11 @@ import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
-import PortfolioPreview from '../components/PortfolioPreview.astro';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hi, I'm Lex."
+					tagline="A musician that does goes on way too many side quests"
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<a href="https://lwumusic.com"><Pill><Icon icon="music" size="1.33em" /> Musician</Pill></a>
+						<a href="https://github.com/lwu877"><Pill><Icon icon="code" size="1.33em" /> Developer</Pill></a>
+						<a href="https://unsplash.com/lwu877"><Pill><Icon icon="microphone-stage" size="1.33em" /> Photographer</Pill></a>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="A portrait of Lex Wu."
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/portrait-new.jpg"
 				/>
 			</header>
 
@@ -56,7 +56,10 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>Take a look below at some of my recent work. (Don't worry - I do a lot of stuff.)
+					<br>
+					<div class="bg-violet-950 text-white py-3 px-1 rounded-lg text-center">Looking for music? It's at a new website! <a class="underline text-slate-300" href="https://lwumusic.com">lwumusic.com</a></div>
+					</p>
 				</header>
 
 				<div class="gallery">
@@ -78,7 +81,7 @@ const projects = (await getCollection('work'))
 					</CallToAction>
 				</div>
 			</section>
-
+<!--
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
@@ -100,6 +103,7 @@ const projects = (await getCollection('work'))
 					</Grid>
 				</div>
 			</section>
+			 -->
 		</main>
 
 		<ContactCTA />

@@ -1,4 +1,5 @@
 ---
+import ClientRouter from 'astro/components/ClientRouter.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -7,12 +8,12 @@ interface Props {
 }
 
 const {
-	title = 'Jeanine White: Personal Site',
-	description = 'The personal site of Jeanine White',
+	title = 'Lex Wu',
+	description = 'A musician that does too many side quests',
 } = Astro.props;
 ---
 
-<meta charset="UTF-8" />
+<meta charset="utf-8">
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
@@ -45,3 +46,7 @@ const {
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
 </script>
+
+<ClientRouter />
+
+<link rel="sitemap" href="/sitemap-index.xml" />
