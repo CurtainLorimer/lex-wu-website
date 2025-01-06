@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 import sentry from '@sentry/astro';
 import spotlightjs from '@spotlightjs/astro';
-
+import swup from '@swup/astro';
 
 import mdx from '@astrojs/mdx';
 
@@ -20,6 +20,7 @@ export default defineConfig({
     sitemap(),
     sentry(),
     spotlightjs(),
-    mdx()
+    mdx(),
+    swup()
   ]
 });
