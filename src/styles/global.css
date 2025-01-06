@@ -129,12 +129,7 @@ body {
 	line-height: 1.5;
 }
 
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-	margin: 0;
-}
+
 
 img {
 	max-width: 100%;

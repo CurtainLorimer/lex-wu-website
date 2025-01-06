@@ -14,7 +14,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://beta.lexwu.com',
+  site: 'https://lexwu.com',
   integrations: [
     tailwind(),
     sitemap(),

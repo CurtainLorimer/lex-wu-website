@@ -9,24 +9,34 @@ tags:
   - WebDev
 ---
 
-You probably wouldn't expect a robotics team to have a place for a front-end developer, but I definitely found one.
+You probably wouldn't expect a robotics team to have a place for a front-end developer, but I definitely found a place for one.
+
+## Accomplishments
+<ul>
+- Revamped a WordPress-based website to be approximately 25% more performant <br>
+- Deployed an Astro-based documentation website completely cost-free <br>
+- Helped establish new options for contributing to the team financially, like Zeffy and PayPal <br>
+- Regularly contributed to fundraising efforts<br>
+</ul>
 
 ## WordPress
 
 Our initial website started out with an outdated theme and a bunch of plugins weighing down the entire website. I took those out and started writing
 new policies [for how to write stuff.](https://phswireclippers5902.github.io/website-guidelines/website/writing/)
 
+I still continue with these roles as the business captain, but under my previous tenure as the Public Relations, Social Media, and Website Manager (yeah, we were a little short-staffed and continue to be), I'm responsible for monthly blog posts and maintaining the website. Oh, and occasionally [giving it a face lift.](https://wireclippers.org/update-4-a-new-look/)
+
 ## Astro Development
 
-As someone who tasked themselves with putting any and all relevant documentation regarding the website and the robot onto a resource easily accessible by anyone who needs it, I pushed myself to create an Astro-based website.
+As someone who tasked themselves with putting any and all relevant documentation regarding the website and the robot onto a resource easily accessible by anyone who needs it, I pushed myself to create an Astro-based website. It's performant, simple to write for (so newer members can easily add stuff), and it taught me how to write websites (like the one you're looking at) in Astro.
 
 Granted, it's not the best by any means. But it's an <a href="https://phswireclippers5902.github.io/website-guidelines/"> easily readable website </a>available for anyone to access. 
 
-## Social Media
+## Social Media and Promotion
 
-Once again, it's not the best - but it's something. 
+Once again, it's not the best - but it's something. I'm in charge of our social media accounts - which means that all the funny videos and posts have me behind the scenes.
 
-I'm in charge of our social media accounts - which means that all the funny videos and posts have me behind the scenes.
+I'm also in charge of the digital signage we have. I manage it with AbleSign
 
 
 <a class="card" href="https://wireclippers.org">
