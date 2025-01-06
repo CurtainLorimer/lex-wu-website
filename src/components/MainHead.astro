@@ -6,7 +6,6 @@ interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
 }
-import { slide } from 'astro:transitions';
 
 const {
 	title = 'Lex Wu',
@@ -14,7 +13,7 @@ const {
 } = Astro.props;
 ---
 
-<meta charset="UTF-8" />
+<meta charset="utf-8">
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />

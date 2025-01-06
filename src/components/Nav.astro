@@ -37,7 +37,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		</menu-button>
 	</div>
 	<noscript>
-		<ul class="nav-items"> <ClientRouter />
+		<ul class="nav-items" transition:animate="slide"> <ClientRouter />
 			{
 				textLinks.map(({ label, href }) => (
 					<li>
@@ -109,10 +109,11 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 					))
 				}
 			</div>
-
+<!--
 			<div class="theme-toggle">
 				<ThemeToggle />
 			</div>
+-->
 		</div>
 	</div>
 </nav>

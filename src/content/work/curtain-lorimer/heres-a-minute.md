@@ -1,6 +1,6 @@
 ---
 title: Here's a Minute
-publishDate: 2023-12-01 00:00:00
+publishDate: 2025-01-01 00:00:00
 img: "https://curtainlorimer.com/_astro/ham-radio.B3yZnW2y_Z1caIG2.webp"
 img_alt: "Here's a Minute logo"
 description: |
@@ -14,6 +14,12 @@ tags:
 
 I thought it'd be fun to try a podcast again - so I decided to start one with a friend.
 
+## Achievements
+<ul>
+- Created a website <br>
+- Composed and produced a custom soundtrack for use every other week <br>
+</ul>
+
 ## Hosting + Writing
 
 Obviously, any podcast wouldn't be a podcast without a host (or two) to walk people through an audio presentation.
@@ -25,7 +31,7 @@ As a freelance web developer, I used [Astro](https://astro.build) and [Tailwind 
 and running for the holiday season (also known as: getting websites done within three days of notice.) 
 
 ## Branding
-<img src="https://raw.githubusercontent.com/CurtainLorimer/lex-wu-website/0981ff911f7ebc4de29b5b18e8ba5d2aa268b85f/src/content/work/curtain-lorimer/hamradio-album.jpg?token=GHSAT0AAAAAAC4V2HGTSIFU4EVL2X4QPPLOZ3WWPLQ">
+<img src="../../../assets/music/hamradio-album.jpg">
 
 Simple and elegant. That's what I usually go with. 
 
@@ -37,4 +43,4 @@ Since the last time I had to compose music for a podcast, I've bettered myself a
 In terms of music direction, I've gone for an Animal Crossing-esque vibe with the instrumentation of a small jazz band. 
 I'm not trying to make meditation music, but I'm also not trying to go too wild with the music. It'll be out on Spotify (soon).
 
-Take a look at the album of music I've composed specifically as backdrop music for this podcast - it's a lot!
+Take a look at the EP of music I've composed specifically as backdrop music for this podcast soon - it'll be releasing by the end of January!
