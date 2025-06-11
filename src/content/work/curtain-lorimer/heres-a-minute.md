@@ -1,10 +1,9 @@
 ---
 title: Here's a Minute
 publishDate: 2025-01-01 00:00:00
-img: "https://curtainlorimer.com/_astro/ham-radio.B3yZnW2y_Z1caIG2.webp"
+img: "https://heresaminute.com/hamradio-album.jpg"
 img_alt: "Here's a Minute logo"
-description: |
-  Writer, host, and person responsible for all the behind-the-scenes work (like making the website, editing, etc.)
+description: "Writer, host, and person responsible for all the behind-the-scenes work (like making the website, editing, etc.)"
 tags:
   - WebDev
   - Branding
